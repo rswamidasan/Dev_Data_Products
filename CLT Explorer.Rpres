@@ -17,7 +17,7 @@ Although the Central Limit Theorem is the basis for many procedures in Data Scie
 - The distinction between **Sample Size** and ***Number of Samples***.
 - The dependence of Sample Means Variance on Sample Size.
 - The insensitivity of Variance to the Number of Samples.
-- <small>for instance, with Exponentials a Sample Size of 100 and 40 Samples will have a lower Variance than a Sample Size of 40 and 1,000 Samples.</small>
+- <small>for instance with Exponentials, 1,000 Samples of Size 40 will result in a higher Sample Means Variance than 40 Samples of Size 100.</small>
 
 
 CLT Explorer - Features
@@ -28,7 +28,7 @@ incremental: true
 
 The app displays the density histogram and reference plots for the means of samples and a single sample based on user inputs of distribution type, sample size and number of samples via:
 
-- A drop-down menu with 4 distributions - Exponential, Uniform, Triangular, and an artificial, discrete Step Function.
+- A drop-down menu with 4 distributions - Exponential, Uniform, Triangular, and an artificial discrete Step Function.
 - Slider inputs for Sample Size and the Number of Samples.
 - A separate tab for summary statistics of Sample Means, a Single Sample and Total Population.
 
@@ -140,7 +140,7 @@ legend('topright', c("Quartiles", "Mean", "Sample Means Density",  "Normal Densi
         lty = c(1, 1, 1, 2), lwd = c(1, 1, 7, 2), col=c("orange", "black", "grey", 139))
 text(xMText, yMText, labels = mText, cex = 0.9)
 ```
-<small>The CLT Explorer in action on a discrete Step Function defined by the integers `r xArt` and probability weights of `r pArt` respectively.</small>
+<small>The CLT Explorer in action on an artificial discrete Step Function defined by the values `r xArt` with probability weights of `r pArt` respectively.</small>
 
 <small>Sample Size = `r SS`, Number of Samples = `r NS`.</small>
 
