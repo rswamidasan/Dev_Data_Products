@@ -10,5 +10,5 @@ The files herein are:
 
 The shiny app can be run by going to the URl: https://rswamidasan.shinyapps.io/CLT-Explorer
 
-The presentation may be viewd at URL: http://rpubs.com/robin_dasan/101090#
+The presentation may be viewed at URL: http://rpubs.com/robin_dasan/101090#
 
